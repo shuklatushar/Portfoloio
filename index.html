@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Shukla</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f8c377032.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" id="icon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst & Full stack developer</p>
+                <h1>Hi, I'm <span>Tushar</span><br> Shukla From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about----------     -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about photo.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a highly motivated and ambitious individual with a passion for technology and a strong
+                        foundation in computer science. With a keen interest in web development and machine learning.As
+                        a natural leader, I have had the privilege of serving as the President of the Rotaract Club of
+                        Mhow Community, where I have fostered strong relationships within the team and successfully
+                        organized community-focused events.I am a continuous learner, always seeking opportunities to
+                        expand my skill set and stay updated.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DSA</span><br>Data Structures and Algorithms</li>
+                            <li><span>Data Analysis</span><br>Python,Pandas,Numpy,Matplotlib other Python libraries</li>
+                            <li><span>UI/UX</span><br>Html,CSS,Javascript</li>
+                            <li><span>Web Development</span><br>Django,Python,C++,Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June 2023 - Current</span><br>Data Analyst Intern at Earth Harvest</li>
+                            <li><span>Jan 2023 - May 2023</span><br>Data Analyst Intern at Technocolab Software ltd</li>
+                            <li><span>June 2022 - Aug 2022</span><br>Data Analyst Intern at Ineuron</li>
+                            <li><span>Aug 2020 - Oct 2020</span><br>Web Development Intern at Prashisth Info Tech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>Btech from Medi-caps University</li>
+                            <li><span>2017 - 2019</span><br>Higher Secondary Education from Indore Public SchooL</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------SERVICES------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Data Analysis</h2>
+                    <p> Internship: Developed expertise in data analysis through
+                        projects like flight fare prediction, credit risk calculator using Bondora data, and startup
+                        acquisition status predictor using Crunchbase data.<br><br>
+
+                        Freelancing project for Earth Harvest: Conducted detailed analysis on customer buying patterns,
+                        expenditure, and stock inventory for an organic food distributor. Provided actionable insights
+                        to optimize operations and improve customer satisfaction.<br><br>
+
+                        Small learning projects: Applied data analysis techniques to various datasets, including
+                        earthquake prediction (USGS.gov), Covid-19 impact on happiness index (John Hopkins University),
+                        Zomato data analysis, Titanic dataset, and Black Friday sales.</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Proficient in HTML, CSS, and JavaScript, enabling me to create engaging and interactive user
+                        interfaces for web applications and websites.
+                        Demonstrated expertise in applying UI/UX principles to project frontend development, including
+                        projects like flight fare prediction, Bondora loan prediction, hotel website, and my portfolio
+                        website.
+                        Utilized HTML and CSS to structure and style web pages, ensuring a visually appealing and
+                        intuitive user interface.
+                        Leveraged JavaScript to enhance interactivity and user experience, implementing features such as
+                        form validation, dynamic content updates, and smooth transitions.
+                        Implemented responsive design techniques, ensuring optimal user experience across different
+                        devices and screen sizes.
+                        Applied UI/UX best practices to create intuitive navigation, clear information hierarchy, and
+                        visually cohesive designs that align with the project objectives.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Backend Development</h2>
+                    <p>Proficient in Django, Python, and C++, enabling me to develop robust and scalable backend
+                        solutions for web applications.
+                        Successfully implemented the backend for a hotel website, connecting it with the frontend and
+                        integrating it with a database. This involved handling user authentication, managing data
+                        storage and retrieval, and implementing server-side logic.
+                        Extensive experience in solving over 1000+ coding questions on various platforms, demonstrating
+                        a strong coding aptitude and the ability to efficiently tackle complex programming challenges.
+                        Skilled in designing and optimizing database schemas, writing efficient and secure code, and
+                        implementing RESTful APIs to facilitate smooth communication between the frontend and backend.
+                        Familiarity with concepts such as data structures, algorithms, and software design patterns,
+                        allowing for the development of efficient and maintainable backend systems.
+                        Continuously enhancing coding skills through regular practice and participation in coding
+                        competitions and challenges to stay up-to-date with the latest industry trends and best
+                        practices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio----------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> Extra Curricular Activities </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imgonline-com-ua-resize-4uZdJu246wrRsUq.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Service</h3>
+                        <p> I have had the privilege of serving as the President of the Rotaract Club of Mhow Community,
+                            where I have fostered strong relationships within the team and successfully organized
+                            community-focused events. I am driven by a strong desire to make a positive impact in
+                            society, evident through my involvement in projects like river cleaning and rural literacy
+                            initiatives.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo1687780444.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Adventure Sports</h3>
+                        <p> In addition to my professional pursuits, I have a strong passion for adventure sports and
+                            outdoor activities. One of my favorite adventure sports is river rafting, which allows me to
+                            combine my love for water, adrenaline, and the thrill of navigating through challenging
+                            rapids. I find great joy and excitement in exploring new destinations for river rafting and
+                            pushing my limits to conquer different levels of rapids.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="chess.webp" alt="">
+                    <div class="layer">
+                        <h3>Chess</h3>
+                        <p> Chess is more than just a game to me; it is a deep-rooted passion that has been an integral
+                            part of my life for many years. I find immense joy and fulfillment in playing chess, as it
+                            challenges my strategic thinking, decision-making abilities, and problem-solving skills.
+                            Through countless hours of practice and participation in chess tournaments, I have honed my
+                            analytical mindset and developed a keen sense of foresight.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -------------------contact----------------------    -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class=subtitle>Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>shuklatushar700@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7000852040</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/tushar.shukla_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/tushar-shukla-0261b317a/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/tushar-shukla-0261b317a/"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/tushar-shukla-0261b317a/"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="Tushar_s_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Tushar shukla. Made with <i class="fa-solid fa-heart"></i> by Tushar</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-links');
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-links');
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+        var closeicon = document.getElementById('icon');
+        function openmenu() {
+            sidemenu.style.right = '0';
+            closeicon.style.display = 'none';
+
+        }
+
+        function closemenu() {
+            // closeicon.add('fa-solid fa-bars')
+            sidemenu.style.right = '-200px';
+            closeicon.style.display = 'inline-block';
+        }
+    </script>
+</body>
+
+</html>
